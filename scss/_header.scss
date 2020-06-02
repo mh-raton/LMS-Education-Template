@@ -1,0 +1,69 @@
+// header
+.header-area {
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.17);
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.header-space {
+    height: 111px;
+}
+
+.logo {
+    a {
+        font-size: 48px;
+        text-decoration: none;
+        display: block;
+    }
+}
+
+// main menu
+.main-menu {
+    li {
+        display: inline-block;
+        margin-right: 50px;
+
+        a {
+            color: #fff;
+            display: block;
+            font-size: 16px;
+            padding: 44px 0;
+
+            &:hover {
+                color: #000;
+            }
+        }
+    }
+
+    .megaMenu {
+        background: #ddd;
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 222;
+
+        li {
+            display: block;
+            margin: 0;
+        }
+    }
+}
+
+.header-right {
+    @extend .main-menu;
+
+    li {
+        margin-right: 0;
+        margin-left: 25px;
+    }
+
+    a {
+        padding: 0;
+    }
+
+    i {
+        margin-right: 10px;
+    }
+}

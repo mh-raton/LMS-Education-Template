@@ -1,0 +1,32 @@
+// popular course
+.popular-course-title {
+    @extend .top-course-title;
+}
+
+// popular course
+.single-badge {
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    min-height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.2);
+        background-blend-mode: overlay;
+    }
+
+    a {
+        font-size: 24px;
+        line-height: 100px;
+        color: #fff;
+        font-weight: 600;
+        text-align: center;
+        display: block;
+
+    }
+}

@@ -1,0 +1,21 @@
+//goal
+.goal-title {
+    @extend .top-course-title;
+}
+
+.single-goal-description {
+    padding: 80px 50px;
+    @extend .single-top-course;
+
+    h4 {
+        font-weight: 600;
+    }
+
+    p {
+        color: #4c4c4c;
+    }
+
+    &:hover {
+        box-shadow: 0px 5px 21.25px 3.75px rgba(214, 222, 228, 0.68);
+    }
+}

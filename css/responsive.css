@@ -1,0 +1,194 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .main-menu li,
+    .header-right li {
+        margin-right: 43px !important;
+    }
+
+    .header-right li {
+        margin-right: 15px !important;
+        margin-left: 0px !important;
+    }
+
+    .single-course {
+        padding: 20px !important;
+    }
+
+    .course-description h5,
+    .best-course-description h5,
+    .blog-content h5 {
+        font-size: 14px !important;
+    }
+
+    .single-goal-description h4 {
+        font-size: 14px !important;
+    }
+
+    .instructor-join a {
+        right: 125px !important;
+    }
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-right li {
+        margin-right: 0 !important;
+        margin-left: 9px !important;
+    }
+
+    .header-area .col-md-none {
+        display: none !important;
+    }
+
+    .header-right.f-right {
+        float: none !important;
+        margin-left: 100px;
+    }
+
+    .header-right li a {
+        padding: 0px !important;
+    }
+
+    .header-space {
+        height: 72px !important;
+    }
+
+    .single-badge a {
+        font-size: 17px !important;
+    }
+
+    .single-goal-description {
+        padding: 40px 40px !important;
+    }
+
+    .single-goal-description h4 {
+        font-size: 18px !important;
+    }
+
+    .single-testimonial p {
+        font-size: 13px !important;
+    }
+
+    .single-testimonial .testimonial-profile img {
+        height: 100px !important;
+    }
+
+    .lmsTrust p {
+        font-size: 20px !important;
+    }
+
+    .course-description h5,
+    .best-course-description h5,
+    .blog-content h5 {
+        font-size: 15px !important;
+    }
+
+    .instructor-join a {
+        right: 6px !important;
+    }
+
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .logo a {
+        font-size: 30px !important;
+    }
+
+    .header-area .col-md-none {
+        display: none !important;
+    }
+
+    .header-area {
+        padding: 10px 0 0 !important;
+    }
+
+    .header-right {
+        display: none !important;
+    }
+
+    .header-space {
+        height: 45px !important;
+    }
+
+    .mean-container a.meanmenu-reveal {
+        margin-top: -40px !important;
+    }
+
+    .mean-container .mean-nav {
+        margin-top: 10px !important;
+    }
+
+    .viewMore,
+    .subscribe-btn {
+        float: none !important;
+    }
+
+    .single-goal-description {
+        padding: 36px 35px !important;
+    }
+
+    .testimonial-area .row.mt-200 {
+        margin-top: 60px;
+    }
+
+    .single-testimonial .testimonial-profile img {
+        height: 100px !important;
+    }
+
+    .testimonial-area .row.mt-90 {
+        margin-top: 20px !important;
+    }
+
+    .testimonial-video {
+        margin-top: 50px !important;
+    }
+
+    .lmsTrust p {
+        font-size: 15px !important;
+        line-height: 1.3 !important;
+    }
+
+    .owl-item img {
+        margin: auto !important;
+    }
+
+    .instructor-join input {
+        width: 100% !important;
+    }
+
+    .instrutor-title.pt-95 {
+        padding-top: 70px !important;
+    }
+
+    .instrutor-title h2 {
+        font-size: 30px !important;
+    }
+
+    .instructor-join.mt-55 {
+        margin-top: 30px !important;
+    }
+
+    .instructor-join a {
+        padding: 35px 80px !important;
+        position: absolute !important;
+        top: 86px !important;
+        right: 0 !important;
+        left: 0 !important;
+        text-align: center !important;
+    }
+
+    .footer-menu.f-right {
+        float: none !important;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}

@@ -1,0 +1,75 @@
+// blog
+.blog-title {
+    @extend .top-course-title;
+}
+
+.single-blog {
+    cursor: pointer;
+    @extend .single-top-course;
+
+    &:hover {
+        box-shadow: 0px 5px 21.25px 3.75px rgba(214, 222, 228, 0.68);
+    }
+
+    @at-root {
+        .blog-img img {
+            width: 100% !important;
+        }
+
+        .blog-desc {
+            padding: 20px 35px 35px 30px;
+        }
+
+        .blog-time-and-profile {
+            a {
+                font-size: 14px;
+                color: #666666;
+
+                &:last-child {
+                    float: right;
+                }
+
+                &:hover {
+                    color: #ab0534;
+                }
+
+                i {
+                    margin-right: 8px;
+                }
+
+            }
+        }
+
+        .blog-content {
+            @extend .best-course-description;
+            padding: 0;
+        }
+
+        .read-btn {
+            a {
+                font-size: 14px;
+                line-height: 1.6;
+                color: #ab0534;
+                font-weight: 600;
+
+                i {
+                    margin-left: 8px;
+                }
+            }
+        }
+
+        .heart-comments {
+            a {
+                color: #666666;
+
+                &:hover {
+                    color: #ab0534;
+                }
+
+                i {
+                    margin-right: 8px;
+                }
+            }
+        }
+    }
+}
